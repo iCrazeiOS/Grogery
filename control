@@ -1,0 +1,9 @@
+Package: com.icraze.grogery
+Name: Grogery
+Version: 1.0
+Architecture: iphoneos-arm
+Description: grog.
+Maintainer: iCraze
+Author: iCraze
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)

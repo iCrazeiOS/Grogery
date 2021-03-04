@@ -1,0 +1,15 @@
+# ninja log v5
+0	204	1602101303000000000	.dragon/build/armv7/GROGRootListController.m.o	e842d08abe52d8f4
+0	204	1602101303000000000	.dragon/build/arm64/GROGRootListController.m.o	b0fcb7d24c2c6b57
+1	205	1602101303000000000	.dragon/build/arm64e/GROGRootListController.m.o	17b87646f9b7704f
+204	433	1602101304000000000	.dragon/build/grogeryprefs.armv7	4d5c875df4a52579
+204	433	1602101304000000000	.dragon/build/grogeryprefs.arm64	d5870eb2e8eea3d2
+205	433	1602101304000000000	.dragon/build/grogeryprefs.arm64e	8cc5d49baca64d6f
+433	471	1602101304000000000	.dragon/sign/.dragon/_/Library/grogeryprefs/grogeryprefs.bundle/grogeryprefs.unsym	4c79923956b4bca9
+471	529	1602101304000000000	.dragon/sign/.dragon/_/Library/grogeryprefs/grogeryprefs.bundle/grogeryprefs.unsigned	6f8456167bdd8cdb
+529	590	1602101304000000000	.dragon/_/Library/grogeryprefs/grogeryprefs.bundle/grogeryprefs	2e5ac954bd2a9bef
+0	31	0	stage	bebc7073b193f1ab
+0	27	0	stage	bebc7073b193f1ab
+0	24	0	stage	bebc7073b193f1ab
+0	34	0	stage	bebc7073b193f1ab
+0	28	0	stage	bebc7073b193f1ab
