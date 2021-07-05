@@ -22,6 +22,9 @@ static BOOL kHideWatermarkEnabled;
 static BOOL kNoDownloadButtonEnabled;
 static BOOL kHideCastButtonEnabled;
 static BOOL kDisableVoiceSearchEnabled;
+static BOOL kDisableStoriesEnabled;
+static BOOL kEnableiPadInterface;
+static BOOL kPIPEnabled;
 
 static void loadPrefs() {
 	NSMutableDictionary *prefs = [[NSMutableDictionary alloc] initWithContentsOfFile:@"/var/mobile/Library/Preferences/com.icraze.grogeryprefs.plist"];
@@ -32,4 +35,7 @@ static void loadPrefs() {
 	kNoDownloadButtonEnabled = [prefs objectForKey:@"kNoDownloadButtonEnabled"] ? [[prefs objectForKey:@"kNoDownloadButtonEnabled"] boolValue] : NO;
 	kHideCastButtonEnabled = [prefs objectForKey:@"kHideCastButtonEnabled"] ? [[prefs objectForKey:@"kHideCastButtonEnabled"] boolValue] : NO;
 	kDisableVoiceSearchEnabled = [prefs objectForKey:@"kDisableVoiceSearchEnabled"] ? [[prefs objectForKey:@"kDisableVoiceSearchEnabled"] boolValue] : NO;
+	kDisableStoriesEnabled = [prefs objectForKey:@"kDisableStoriesEnabled"] ? [[prefs objectForKey:@"kDisableStoriesEnabled"] boolValue] : NO;
+	kEnableiPadInterface = [prefs objectForKey:@"kEnableiPadInterface"] ? [[prefs objectForKey:@"kEnableiPadInterface"] boolValue] : NO;
+	kPIPEnabled = [prefs objectForKey:@"kPIPEnabled"] ? [[prefs objectForKey:@"kPIPEnabled"] boolValue] : YES;
 }
