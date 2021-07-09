@@ -2,13 +2,11 @@
 
 %group GroupNoAds
 %hook YTAdsPlayerModule
--(void)configureWithBinder:(id)arg1 {
-}
+-(void)configureWithBinder:(id)arg1 {}
 %end
 
 %hook YTAdsInnerTubeContextDecorator
--(void)decorateContext:(id)arg1 {
-}
+-(void)decorateContext:(id)arg1 {}
 %end
 %end
 
@@ -26,8 +24,7 @@
 
 %group GroupHideWatermark
 %hook YTMainAppVideoPlayerOverlayViewController
--(void)setFeaturedChannelWatermarkImageView:(id)arg1 {
-} 
+-(void)setFeaturedChannelWatermarkImageView:(id)arg1 {} 
 %end
 %end
 
