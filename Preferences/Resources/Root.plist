@@ -142,20 +142,6 @@
 			<key>PostNotification</key>
 			<string>com.icraze.grogeryprefs.settingschanged</string>
 		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSSwitchCell</string>
-			<key>default</key>
-			<true/>
-			<key>defaults</key>
-			<string>com.icraze.grogeryprefs</string>
-			<key>key</key>
-			<string>kPIPEnabled</string>
-			<key>label</key>
-			<string>Enable PIP (Picture in Picture)</string>
-			<key>PostNotification</key>
-			<string>com.icraze.grogeryprefs.settingschanged</string>
-		</dict>
 	</array>
 	<key>title</key>
 	<string>Grogery</string>
